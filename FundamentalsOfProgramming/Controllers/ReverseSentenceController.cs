@@ -16,7 +16,7 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public string PostAString(string sentence)
+        public string ReverseASentence(string sentence)
         {
             var x = _reverseSentenceService.GetReverseSentence(sentence);
             return x;

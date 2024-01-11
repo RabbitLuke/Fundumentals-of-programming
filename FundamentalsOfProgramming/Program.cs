@@ -15,6 +15,7 @@ namespace FundamentalsOfProgramming
             builder.Services.AddScoped<IimageService, ImageService>();
             builder.Services.AddScoped<IimageAdapter, ImageAdapter>();
             builder.Services.AddScoped<IReverseSentenceService, ReverseSentenceService>();
+            builder.Services.AddScoped<IFactorialCalculatorService, FactorialCalculatorService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
